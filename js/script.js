@@ -30,7 +30,10 @@ $(document).ready(function() {
 	$('.menu-burger').click(function(event) {
 		$('.menu-burger').toggleClass('active-burger');
 		$('.menu').toggleClass('active-menu');
-		$('.wrapper').toggleClass('body');
+		$("html,body").css("overflow","hidden");
+	});
+	$('.active-burger').click(function(event) {
+		$("html,body").css("overflow","auto");
 	});
 });
 
