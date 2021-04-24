@@ -225,7 +225,9 @@ button {
   color: #fff5;
   transition: 0.3s;
 }
-
+.body {
+  overflow: hidden;
+}
 .sign-in-button,
 .sign-up-button{
   margin: 0 10px;
